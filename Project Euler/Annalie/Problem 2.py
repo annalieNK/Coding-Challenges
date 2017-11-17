@@ -14,7 +14,7 @@
 # create a new list that only contains the even-values
 # sum the values in the new list
 
-def fib(n):
+def solution(n):
 	fibseq = []
 	fibseqeven = []
 	a, b = 1, 2
@@ -29,4 +29,4 @@ def fib(n):
 
 
 if __name__ == "__main__":
-	print fib(4000000)
+	print solution(4000000)
