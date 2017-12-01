@@ -20,17 +20,6 @@ def solution():
 			break
 	return i
 
-# # how should I rewrite this code in a nicer format?
-# def solution():
-# 	for i in xrange(1, sys.maxint):
-# 		# for x in range(10):
-# 		# 	if all(i % x == 0):
-
-# 		# if i % {0}.format(range(11))== 0:
-# 			break
-
-# 	return i
-
 
 if __name__ == "__main__":
 	print solution()
